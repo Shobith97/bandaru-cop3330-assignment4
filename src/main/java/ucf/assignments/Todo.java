@@ -11,7 +11,7 @@ public class Todo {
     private String title;
     private ArrayList<Item> items = new ArrayList<>(100);
     */
-    public Todo(String id, String title) {
+    public Todo() {
         /*
         this.title = title;
         this.id = id;
@@ -73,7 +73,7 @@ public class Todo {
          */
     }
 
-    private Item getItem(String id) {
+    public Item getItem(String id) {
         /*
         for (Item i : items) {
             if (i.getId().equals(id)) {
@@ -85,7 +85,7 @@ public class Todo {
         return null;
     }
 
-    private int getIndex(String id) {
+    public int getIndex(String id) {
         /*
         for(int i=0; i<items.size(); i++){
             if(id.equals(items.get(i).getId())){

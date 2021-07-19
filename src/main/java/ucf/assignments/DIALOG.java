@@ -6,6 +6,8 @@ package ucf.assignments;
 import javax.swing.*;
 
 public interface DIALOG {
+    static void showDialog(String something, String anElse) {
+    }
     /*
     static void showDialog(String message, String title){
         JOptionPane.showMessageDialog(null,
